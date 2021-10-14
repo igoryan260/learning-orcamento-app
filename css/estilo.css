@@ -1,0 +1,52 @@
+p.saldo {
+    font-size: 2rem;
+}
+
+.saldoPositivo {
+    color: rgb(0, 177, 0);
+}
+
+.saldoNegativo {
+    color: red;
+}
+
+
+/*adicionar saldo*/
+
+.fa-plus-square {
+    font-size: 2rem;
+    align-self: baseline;
+    cursor: pointer;
+}
+
+
+/*input para adicionar um valor*/
+
+#valor_a_adicionar {
+    height: 1rem;
+    max-width: 150px;
+    outline: none;
+    border: none;
+    border-bottom: var(--cyan) solid 1px;
+    margin: 0 2rem;
+    font-size: larger;
+    padding: 1rem;
+    align-self: baseline;
+}
+
+
+/*mostrar esconder input para adicionar valor*/
+
+.d-none {
+    display: none;
+}
+
+.esconderInput {
+    opacity: 0;
+    transition: .5s;
+}
+
+.mostrarInput {
+    opacity: 100;
+    transition: .5s;
+}
